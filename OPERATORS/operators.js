@@ -4,8 +4,8 @@ let b = 5;
 
 console.log("Addition: " + (a + b)); // 15
 console.log("Subtraction: " + (a - b)); // 5
-console.log("Multiplication: " + (a * b)); // 50
-console.log("Division: " + (a / b)); // 2
+console.log("Multiplication: " + a * b); // 50
+console.log("Division: " + a / b); // 2
 console.log("Modulus: " + (a % b)); // 0
 
 //Assignment Operators
@@ -17,7 +17,7 @@ console.log("c after -= 3: " + c); // 22
 c *= 2; // c = c * 2
 console.log("c after *= 2: " + c); // 44
 c /= 4; // c = c / 4
-console.log("c after /= 4: " + c); // 11   
+console.log("c after /= 4: " + c); // 11
 
 //Comparison Operators
 let x = 10;
@@ -32,15 +32,14 @@ console.log("x <= y: " + (x <= y)); // true
 console.log("x === y: " + (x === y)); // false
 console.log("x !== y: " + (x !== y)); // true
 
-
 //Logical Operators
 let p = true;
 let q = false;
 
 console.log("p && q: " + (p && q)); // false
 console.log("p || q: " + (p || q)); // true
-console.log("!p: " + (!p)); // false
-console.log("!q: " + (!q)); // true
+console.log("!p: " + !p); // false
+console.log("!q: " + !q); // true
 
 //Increment and Decrement Operators
 let m = 5;
