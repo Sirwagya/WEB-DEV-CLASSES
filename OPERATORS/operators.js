@@ -21,7 +21,7 @@ console.log("c after /= 4: " + c); // 11
 
 //Comparison Operators
 let x = 10;
-let y = 20;
+let y = "20";
 
 console.log("x == y: " + (x == y)); // false
 console.log("x != y: " + (x != y)); // true
