@@ -29,6 +29,9 @@ console.log("x > y: " + (x > y)); // false
 console.log("x < y: " + (x < y)); // true
 console.log("x >= y: " + (x >= y)); // false
 console.log("x <= y: " + (x <= y)); // true
+console.log("x === y: " + (x === y)); // false
+console.log("x !== y: " + (x !== y)); // true
+
 
 //Logical Operators
 let p = true;
